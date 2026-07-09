@@ -1,0 +1,51 @@
+Q1. Reference Copy (=)
+----------------------
+Create an object student1 with:
+- name
+- age
+
+Assign it to student2 using (=).
+
+Tasks:
+1. Change student2.name.
+2. Print both objects.
+3. Explain why both objects changed.
+
+
+Q2. Shallow Copy
+----------------
+Create an object employee with:
+- name
+- department
+
+Tasks:
+1. Create a shallow copy using the spread operator (...).
+2. Change the department in the copied object.
+3. Print both objects.
+4. Explain why the original object did or did not change.
+
+
+Q3. Shallow Copy with Nested Object
+-----------------------------------
+Create an object user with:
+- name
+- address
+    - city
+    - pincode
+
+Tasks:
+1. Create a shallow copy using the spread operator.
+2. Change address.city in the copied object.
+3. Print both objects.
+4. Explain why both objects show the same city.
+
+
+Q4. Deep Copy
+-------------
+Using the same user object:
+
+Tasks:
+1. Create a deep copy using structuredClone().
+2. Change address.pincode in the copied object.
+3. Print both objects.
+4. Explain why the original object did not change.
