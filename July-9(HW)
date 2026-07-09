@@ -49,3 +49,17 @@ Tasks:
 2. Change address.pincode in the copied object.
 3. Print both objects.
 4. Explain why the original object did not change.
+
+Q5. Bank Account
+----------------
+Create an object with:
+- accountHolder
+- balance
+
+Create methods:
+1. deposit(amount)
+2. withdraw(amount)
+
+Requirements:
+- Update balance using this.balance.
+- Print balance after every transaction.
