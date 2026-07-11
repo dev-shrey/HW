@@ -1,0 +1,146 @@
+Q1. Create a Student Object
+---------------------------
+Create a student object with:
+- name
+- age
+- course
+
+Convert the object into a JSON string using JSON.stringify().
+
+Print:
+1. Original Object
+2. JSON String
+3. Type of both
+
+
+Q2. JSON to Object
+------------------
+Create the following JSON string:
+
+'{"name":"Rahul","age":21,"city":"Indore"}'
+
+Convert it into a JavaScript object using JSON.parse().
+
+Print:
+1. Complete Object
+2. Name
+3. City
+
+
+Q3. Predict the Output
+----------------------
+Without running the code, predict the output.
+
+let user = {
+    name: "Amit",
+    age: 20
+};
+
+let data = JSON.stringify(user);
+
+console.log(typeof data);
+
+
+Q4. Functions in JSON
+---------------------
+Create an object containing:
+- name
+- age
+- greet() function
+
+Convert it into JSON.
+
+Questions:
+1. Is the function present in the JSON?
+2. Explain why.
+
+
+Q5. Undefined in JSON
+---------------------
+Create an object containing:
+- name
+- age
+- city: undefined
+
+Convert it into JSON.
+
+Questions:
+1. What is the output?
+2. Why is city missing?
+
+
+Function Borrowing
+
+Q6. Borrow a Function using call()
+----------------------------------
+Create two objects:
+
+user1
+- name
+- city
+
+user2
+- name
+- city
+
+Create one function:
+
+introduce(country)
+
+Use call() to borrow the function for user2.
+
+
+Q7. Borrow a Function using apply()
+-----------------------------------
+Using the same objects,
+
+Call introduce() using apply().
+
+Pass arguments as an array.
+
+
+Q8. Borrow a Function using bind()
+----------------------------------
+Using the same function,
+
+Create a new function using bind().
+
+Call the new function later with different arguments.
+
+
+Q9. Predict the Output
+----------------------
+
+const person1 = {
+    name: "Rahul"
+};
+
+const person2 = {
+    name: "Amit"
+};
+
+function greet(city) {
+    console.log(this.name, city);
+}
+
+greet.call(person2, "Delhi");
+
+Predict the output and explain why.
+
+Que : Create three objects:
+- student1
+- student2
+- student3
+
+Each object should only have:
+- name
+
+Create one common function:
+
+welcome(city, age)
+
+Without copying the function into every object:
+
+1. Use call() for student2.
+2. Use apply() for student3.
+3. Use bind() to create a new function for student1 and call it later.
