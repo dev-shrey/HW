@@ -1,0 +1,48 @@
+Objective
+
+// Build a Shopping Cart Application that stores all cart data in localStorage so that products remain available even after refreshing the page.
+
+
+// Features
+// Add Product
+// Product Name
+// Price
+// Quantity
+// Category
+// Validate all fields before adding.
+// Display Products
+// Show all products as cards.
+// Data should remain after page refresh.
+// Edit Product
+// Edit existing product details.
+// Update localStorage and UI.
+// Delete Product
+// Delete a single product from the cart.
+// Search Products
+// Search products by name.
+// Filter Products
+// Filter products by category.
+// Cart Summary
+// Display:
+// Total Products
+// Total Quantity
+// Grand Total Price
+// Clear Cart
+// Remove all products from the cart.
+// localStorage Requirements
+
+// Students must use:
+
+// localStorage.setItem()
+// localStorage.getItem()
+// JSON.stringify()
+// JSON.parse()
+// JavaScript Concepts
+// DOM Manipulation
+// Event Listeners
+// Arrays
+// Objects
+// forEach()
+// filter()
+// find()
+// reduce()
